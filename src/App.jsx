@@ -7,6 +7,8 @@ import Search from './components/Search'
 import Nav from './components/Nav'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cats from './components/Cats'
+import Dogs from './components/Dogs'
+import Computers from './components/Computers'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,8 +22,8 @@ function App() {
         <Routes>
           <Route path="/" element={ <> </> }/>
           <Route path="/cats" element={ <> <Cats/> </> }/>
-          <Route path="/dogs" element={ <> </> }/>
-          <Route path="/computers" element={ <> </> }/>
+          <Route path="/dogs" element={ <> <Dogs/> </> }/>
+          <Route path="/computers" element={ <> <Computers/> </> }/>
           <Route path="/search/:query" element={ <> </> }/>
         </Routes>
       </BrowserRouter>

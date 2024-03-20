@@ -9,7 +9,7 @@ function Nav() {
 
                 <Link to="/dogs"> Dogs </Link>
 
-                <Link to="/computer"> Cats </Link>
+                <Link to="/computers"> Computers </Link>
 
             </ul>
         </div>
